@@ -273,6 +273,9 @@
 	font-weight: bold;
 	margin-top: -1px;
 }
+.goods .menu-wrapper .menu-item:first-child.current{
+	margin-top: 1px;
+}
 .goods .menu-wrapper .menu-item .text{
 	font-size: 13px;
 	color: #333333;
