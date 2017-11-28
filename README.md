@@ -1,21 +1,11 @@
 # sell
 
-> 美团外卖APP
-
-## Build Setup
+> 高仿美团外卖APP
 
 ``` bash
-# install dependencies
+# 1.1 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 1.2 启动项目
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
