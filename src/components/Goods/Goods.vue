@@ -48,7 +48,7 @@
 									<span class="saled">{{food.month_saled_content}}</span>
 									<span class="praise">{{food.praise_content}}</span>
 								</div>
-								<img class="product" :src="food.product_label_picture" />
+								<img class="product" :src="food.product_label_picture" v-show="food.product_label_picture" />
 								<p class="price">
 									<span class="text">￥{{food.min_price}}</span>
 									<span class="unit">/{{food.unit}}</span>

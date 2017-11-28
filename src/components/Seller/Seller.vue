@@ -54,7 +54,6 @@
 				</div>
 			</div>
 
-			<Split class="bottom"></Split>
 		</div>
 	</div>
 </template>
@@ -118,10 +117,13 @@
 		top: 191px;
 		bottom: 0px;
 		width: 100%;
+		background: #F4F4F4;
 		overflow: hidden;
 	}
 	
-	.seller .seller-wrapper {}
+	.seller .seller-wrapper {
+		background: white;
+	}
 	
 	.seller .seller-wrapper .seller-view {
 		padding-left: 15px;
@@ -254,9 +256,5 @@
 	.seller .seller-wrapper .other-wrapper .discounts-wrapper .discounts-item .text {
 		flex: 1;
 		font-size: 14px;
-	}
-	
-	.seller .seller-wrapper .bottom {
-		height: 28px;
 	}
 </style>
